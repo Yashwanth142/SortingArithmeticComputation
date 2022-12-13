@@ -17,3 +17,4 @@ Compute[a3]=$a3
 Compute[a4]=$a4
 
 arr=(${Compute[a1]} ${Compute[a2]} ${Compute[a3]} ${Compute[a4]})
+echo ${arr[@]}
